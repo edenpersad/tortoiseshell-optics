@@ -1,0 +1,160 @@
+/* universal */
+
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main-content {
+  margin: 0 auto;
+}
+
+/* banner */
+
+.banner {
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+/* header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: cadetblue;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+nav li {
+  display: inline;
+  padding: 1rem 0 1rem 2rem;
+}
+
+/* banner text */
+
+.banner-text {
+  position: relative;
+  left: 4rem;
+  float: right;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
+}
+
+/* services */
+
+.services {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 8rem;
+  margin: 3rem auto;
+
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 3rem;
+  height: 100%;
+}
+
+#exams img{
+  width: 3.5rem;
+  height: auto;
+}
+
+#fittings img, #delivery img {
+  width: 5rem;
+  height: auto;
+}
+
+/* info */
+
+.info-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 5rem;
+}
+
+.info-item {
+  width: 35%;
+  margin-right: 5%;
+}
+
+.info-item h2 {
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* footer */
+
+footer {
+  background-color: azure;
+  padding: 4rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
